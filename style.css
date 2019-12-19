@@ -1,0 +1,16 @@
+body {
+  color: #bb7171;
+  background-color: #c1f6e7; 
+  padding: 20px 20px 20px 20px;
+  font-family: 'Slabo 27px', serif;
+}
+
+h4{
+  color: #ffcbcb;
+  background-color:#4e3440;
+  background-size:contain;
+  text-align: center;
+  font-size: 3.0em;
+  word-spacing: 1.0em;
+  padding: 20px 20px 20px 20px;
+}

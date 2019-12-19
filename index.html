@@ -1,0 +1,76 @@
+ <!--
+CHOOSE-YOUR-OWN-ADVENTURE
+
+You will create your own CYOA. If you are unsure of what a CYOA is, check out this link: https://chooseyourstory.com/
+
+There are only a few requirements:
+* must use radio buttons, checkboxes and text input, at least one of each
+* must have at least 10 choices the user must make
+* must have functions
+* must have If-statements
+* must have complete CSS and HTML
+* must be uploaded to Github and included on your profile page
+
+You may design the program however you see. I want to see how you put the pieces together. We have done ALOT of exercises and notes on various techniques for designing programs and using functions. Time for you to put it all together on your own. 
+
+This work is a culmination of everything we have done in the class this semester. Please give me your best ORIGINAL work.
+
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <form>
+      
+      <h4 id="output"> Eat a dount!</h4>
+
+
+
+      <hr>
+      
+          
+
+      <input type="radio" name="userOption" id="FirstOp1" > <label id="Op1"> Eat a cake dount?</label> <br>
+      <input type="radio" name="userOption" id="FirstOp2"> <label id="Op2"> Eat a plain donut?</label> <br>
+      <input type="radio" name="userOption" id="FirstOp3"> <label id="Op3">Eat a glazed donut?</label> <br>
+      <input type="radio" name="userOption" id="FirstOp4"> <label id="Op4"> I don't like donuts..?</label> <br>
+      <hr>
+
+      <input type="checkbox" id="checkClass1"><label id="CB1"></label><br>
+      <input type="checkbox" id="checkClass2"><label id="CB2"></label><br>
+      <input type="checkbox" id="checkClass3"><label id="CB3"></label><br>
+      <input type="checkbox" id="checkClass4"><label id="CB4"></label><br>
+      <hr>
+      <label id="TB1">
+        <br>
+      </label><br><input type="text" id="answer1" placeholder="Enter ">
+      <label id="TB1">
+        <br>
+      <label id="TB2"></label><br><input type="text" id="answer2" placeholder="Enter ">
+      <label id="TB1">
+        <br>
+      <label id="TB3"></label><br><input type="text" id="answer3" placeholder="Enter ">
+      <label id="TB1">
+        <br>
+      <label id="TB4"></label><br><input type="text" id="answer4" placeholder="Enter ">
+      <hr>
+      
+  
+      <br>
+
+      <input type="button" value="Choose Option" onclick="NextPage();" />
+      <br>
+      <input type="button" value="Choose Option 2" onclick="bruh();" />
+      <br>
+      <input type="button" value="Choose Option 3" onclick="FinalAct();" />
+
+    </form>
+  </body>
+</html>
